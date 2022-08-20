@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --bgc: #1F2937;
+    --fc: white;
+    --header-text-size : 12px;
+    --links-size: 20px;
+    --button-bgc: #3882F6;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* Header Section */
+.header {
+    display: flex;
+    background-color: var(--bgc);
+    color: var(--fc);
+    height: 12vhpx;
+    justify-content: flex-end;
+}
+.header-text {
+    flex: 1;
+    font-size: var(--header-text-size);
+    margin: 12px;
+}
+
+.links-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.links-container div {
+    margin-top: 10px;
+    margin: .5em;
+    font-size: var(--links-size)
+}
+.links-container a{
+    color: var(--fc);
+    text-decoration: none;
+}
+.hero-paragraph button{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: .8em;
+    font-weight: bold;
+    color: var(--fc);
+    background-color: var(--button-bgc);
+    border-radius: 12px;
+    border-style: hidden;
+    
+}
+/* Hero Section */
+.upper-body {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    background-color: var(--bgc);
+    color: var(--fc);
+    height: 50vh;
+}
+.hero-wrapper {
+    flex: 1;
+    display: flex;
+    width: 75vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    justify-content: center;
+}
+.hero-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.hero-paragraph{
+    width: 75%;
+    margin: 10px;
+    flex: 1;
+}
+.hero-paragraph h2{
+    margin-bottom: 8px;
+}
+.hero-paragraph p{
+    width: 65%;
+}

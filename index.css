@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root {
     --bgc: #1F2937;
     --fc: white;
-    --header-text-size : 10px;
+    --header-text-size : 24px;
     --links-size: 18px;
     --button-bgc: #3882F6;
     font-family: 'Roboto', sans-serif;
@@ -13,6 +13,15 @@
     padding: 0;
     box-sizing: border-box;
   }
+.outside-wrapper{
+    background-color: var(--bgc);
+}
+.inside-wrapper{
+    margin-right: 10vw ;
+    margin-left: 10vw;
+    height: 52vh;
+    padding-top: 10px;
+}
 /* Header Section */
 .header {
     display: flex;
@@ -20,24 +29,29 @@
     color: var(--fc);
     height: 12vhpx;
     justify-content: flex-end;
-    
 }
 .header-text {
     flex: 1;
     font-size: var(--header-text-size);
-    margin: 12px;
-    margin-left: 10vw;
+    margin: 10px;
+    
+}
+.header-text h1{
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .links-container {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    margin-right: 10vw;
+  
 }
 .links-container div {
-    margin-top: 10px;
-    margin: .5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: var(--links-size);
     
 }
@@ -49,14 +63,14 @@
 
 /* Hero Section */
 .hero-paragraph button{
-    margin-top: 10px;
-    padding: 10px;
-    font-size: .8em;
-    font-weight: bold;
+    margin-top: 1em;
     color: var(--fc);
-    background-color: var(--button-bgc);
-    border-radius: 12px;
     border-style: hidden;
+    font-size: 18px;
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
     
 }
 .upper-body {
@@ -66,45 +80,52 @@
     background-color: var(--bgc);
     color: var(--fc);
     height: 40vh;
+    margin-top: 5vh;
 }
 .image-placeholder {
-    background-color: #eee;
+    background-color: gray;
     display: flex;
-    height: 70%;
-    margin: 5px;
-    width: 50%;
+    height: 60%;
+    width: 70%;
     opacity: 0.8;
 }
 
 .image-placeholder > h4 {
     align-self: center;
     text-align: center;
-    color: black;
+    color: white;
     width: 100%;
+    font-size: 20px;
+}
+.img-wrapper{
+    width: 100vw;
+    flex: 1;
+    
 }
 .hero-wrapper {
     margin-top: 4.5em;
     flex: 1;
     display: flex;
-    width: 75vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 100%;
     justify-content: center;
 }
 .hero-text {
     flex: 1;
     display: flex;
+    width: 100%;
     
 }
 .hero-paragraph{
-    width: 65%;
+    width: 60%;
     margin: 10px;
     flex: 1;
+    gap: 10px;
 }
 .hero-paragraph h2{
     margin-bottom: 10px;
-    font-weight: extra-bold;
+    font-weight: 900;
+    font-size: 48px;
 }
 .hero-paragraph p{
-    width: 70%;
+    font-size: var(--links-size);
 }

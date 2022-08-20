@@ -3,8 +3,8 @@
 :root {
     --bgc: #1F2937;
     --fc: white;
-    --header-text-size : 12px;
-    --links-size: 20px;
+    --header-text-size : 10px;
+    --links-size: 18px;
     --button-bgc: #3882F6;
     font-family: 'Roboto', sans-serif;
 }
@@ -20,27 +20,34 @@
     color: var(--fc);
     height: 12vhpx;
     justify-content: flex-end;
+    
 }
 .header-text {
     flex: 1;
     font-size: var(--header-text-size);
     margin: 12px;
+    margin-left: 10vw;
 }
 
 .links-container {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    margin-right: 10vw;
 }
 .links-container div {
     margin-top: 10px;
     margin: .5em;
-    font-size: var(--links-size)
+    font-size: var(--links-size);
+    
 }
 .links-container a{
     color: var(--fc);
     text-decoration: none;
+    
 }
+
+/* Hero Section */
 .hero-paragraph button{
     margin-top: 10px;
     padding: 10px;
@@ -52,36 +59,52 @@
     border-style: hidden;
     
 }
-/* Hero Section */
 .upper-body {
     display: flex;
     width: 100vw;
     justify-content: center;
     background-color: var(--bgc);
     color: var(--fc);
-    height: 50vh;
+    height: 40vh;
+}
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    height: 70%;
+    margin: 5px;
+    width: 50%;
+    opacity: 0.8;
+}
+
+.image-placeholder > h4 {
+    align-self: center;
+    text-align: center;
+    color: black;
+    width: 100%;
 }
 .hero-wrapper {
+    margin-top: 4.5em;
     flex: 1;
     display: flex;
     width: 75vw;
-    margin-left: 6vw;
-    margin-right: 6vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     justify-content: center;
 }
 .hero-text {
     flex: 1;
     display: flex;
-    justify-content: center;
+    
 }
 .hero-paragraph{
-    width: 75%;
+    width: 65%;
     margin: 10px;
     flex: 1;
 }
 .hero-paragraph h2{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    font-weight: extra-bold;
 }
 .hero-paragraph p{
-    width: 65%;
+    width: 70%;
 }

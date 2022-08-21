@@ -242,6 +242,15 @@ card {
     text-align: start;
 }
 .sign-up-text p{
-    flex: 1;
     text-align: start;
+}
+/* Footer */
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: var(--bgc);
+    height: 100px;
+    color: var(--fc);
+    justify-content: center;
+    align-items: center;
 }

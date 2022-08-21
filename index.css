@@ -201,3 +201,47 @@ card {
     color: #1f2937;
     font-weight: bold;
 }
+/* Sign up blue thing */
+.sign-up-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sign-up{
+    flex: 1;
+    display: flex;
+    max-width: 80%;
+    height: 15vh;
+    margin: 80px;
+    background-color: var(--button-bgc);
+    border-radius: 10px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: var(--fc);
+    padding: 20px;
+}
+.sign-up button{
+    flex: 1;
+    margin: 1em;
+    color: var(--fc);
+    border-style: solid;
+    border-color: white;
+    font-size: 18px;
+    padding: 5px;
+    max-width: 10%;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+.sign-up-text{
+    text-decoration: none;
+}
+.sign-up-text h1{
+    flex: 1;
+    text-align: start;
+}
+.sign-up-text p{
+    flex: 1;
+    text-align: start;
+}

@@ -195,7 +195,6 @@ card {
 .quote p{
     position: absolute;
     margin-bottom: 80px;
-    transform: translateX(100%);
     align-self: flex-end;
     font-size: 24px;
     color: #1f2937;

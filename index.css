@@ -328,4 +328,53 @@ card {
     .card-container{
         flex-direction: column;
     }
+    /* Quote Section */
+    .quote{
+        min-height: 35vh;
+        margin: 0px;
+    }
+    .quote em{
+        font-size: 24px;
+        max-height: max-content;
+    }
+    .quote p{
+        display: none;
+    }
+    /* Sign up Section */
+    .sign-up-wrapper{
+        min-width: 90vw;
+        margin: 0px;
+        padding: 0px;
+        margin-inline: 0px;
+    }
+    .sign-up{
+        min-width: 83vw;
+        margin-inline: 0;
+        padding: 0;
+        padding-inline: 15px;
+    }
+    .sign-up h1{
+        margin: 0px;
+        font-size: 18px;
+    }
+    .sign-up p{
+        font-size: 12px;
+
+    }
+    .sign-up button{
+        min-width: 18%;
+        min-height: 20%;
+        font-size: 10px;
+        margin: 0;
+        font-weight: bold;
+    }
+    @media screen and (max-height:1024px) and (min-height:770px) {
+        .inside-wrapper{
+            min-height: 440px;
+        }
+        .hero-text{
+            margin-top: 20px;
+        }
+        
+    }
 }

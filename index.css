@@ -254,3 +254,66 @@ card {
     justify-content: center;
     align-items: center;
 }
+@media screen  and (max-width:600px) {
+    
+    .outside-wrapper{
+        min-height: fit-content;
+        margin: 0;
+        min-width: 99%;
+        padding: 0;
+    }
+    .inside-wrapper{
+        margin: 0;
+        margin-inline: 0px;
+    }
+    /* Header */
+    .header{
+        margin: 0;
+        padding: 0;
+        min-width: 300px;
+        margin-top: 10px;
+    }
+    .header-text{
+        margin: 0;
+        padding: 0;
+    }
+    .header-text h1{
+        margin: 0;
+        padding: 0;
+        text-align: start;
+        justify-self: flex-start;
+        align-self: center;
+        font-size: 18px;
+        text-align: center;
+    }
+    .links-container{
+        display: none;
+    }
+    /* Hero Section */
+    .upper-body{
+        margin-inline: 5px;
+        margin-top: 10px;
+    }
+    .img-wrapper{
+        display: none;
+    }
+    .hero-paragraph{
+        flex: 1;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-paragraph h2{
+        font-size: 29px;
+    }
+    .hero-paragraph p{
+        font-size: 18px;
+    }
+    
+    .hero-paragraph button{
+        margin: 0;
+        margin-top: 1.5em;
+        
+        width: 40%;
+
+    }
+}

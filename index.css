@@ -183,7 +183,7 @@ card {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgba(116, 116, 116, 0.986);
 }
 .quote em{
     font-size: 36px;
